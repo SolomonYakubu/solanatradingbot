@@ -1,0 +1,38 @@
+{
+  "name": "solapetradingbot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --loader ts-node/esm src/main.ts",
+    "dev": "node --loader ts-node/esm src/main.ts",
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.0.0",
+    "@solana/spl-token": "^0.4.12",
+    "@solana/spl-token-registry": "^0.2.4574",
+    "@solana/web3.js": "^1.98.0",
+    "@types/mongoose": "^5.11.97",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.10.1",
+    "node-fetch": "^3.3.2",
+    "telegraf": "^4.16.3",
+    "tsconfig-paths": "^4.2.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
